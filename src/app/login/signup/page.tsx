@@ -12,7 +12,9 @@ export default function SignUpPage({}: Props) {
               <p className="text-center">Logo</p>
             </div>
             <div className="mt-12 flex flex-col items-center">
-              <h1 className="text-2xl xl:text-3xl font-extrabold">Sign up</h1>
+              <h1 className="text-2xl text-[#1bc7b8] xl:text-3xl font-extrabold">
+                Sign up
+              </h1>
               <div className="w-full flex-1 mt-8">
                 <div className="flex flex-col items-center">
                   <button className="w-full max-w-xs font-bold shadow-sm rounded-lg py-3 bg-indigo-100 text-gray-800 flex items-center justify-center transition-all duration-300 ease-in-out focus:outline-none hover:shadow focus:shadow-sm focus:shadow-outline">
@@ -69,7 +71,7 @@ export default function SignUpPage({}: Props) {
                     type="password"
                     placeholder="Password"
                   />
-                  <button className="mt-5 tracking-wide font-semibold bg-indigo-500 text-gray-100 w-full py-4 rounded-lg hover:bg-indigo-700 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none">
+                  <button className="mt-5 tracking-wide font-semibold bg-dark-gray text-white w-full py-4 rounded-lg hover:bg-indigo-700 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none">
                     <svg
                       className="w-6 h-6 -ml-2"
                       fill="none"
